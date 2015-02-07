@@ -10,5 +10,6 @@ require_once 'commands/seedcommands/SeedCodelistDaysCommand.php';
 
 $timetjekgenerator = new Application();
 $timetjekgenerator->AddCommand(new SeedAccountCommand("test"));
+
 // run the bastard!
 $timetjekgenerator->Run();
