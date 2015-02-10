@@ -153,4 +153,40 @@ class SeedData {
             )
         );
     }
+
+    public static function Companies()
+    {
+        return array(
+            array(
+                'FkAccountId' => 0,
+                'CompanyName' => 'BCT Trinity',
+                'Address1' => 'Randersgade 27, 4 th',
+                'Address2' => 'Kælderen',
+                'Zipcode' => '2200',
+                'City' => 'köpenhamn',
+                'CompanyRegistrationId' => '12345678',
+                'PhoneNumber' => '11112222',
+                'DateCreated' => date("Y-m-d H:i:s"),
+                'IsActive' => '1'
+            )
+        );
+    }
+
+    public static function Employees()
+    {
+        return array(
+            array(
+                'FkCompanyId' => 7,
+                'EmployeeTypeId' => 1,
+                'Active' => 1,
+                'dtEmployementStarted' => date("Y-m-d H:i:s"),
+                'PersonName' => 'Mads A-Skat',
+                'CivilRegistrationId' => '123456789',
+                'Address' => 'Randersgade 27, 4th',
+                'Phone' => '3434343434',
+                'Email' => 'mads@twilight.dk',
+                'BirthDay' => '1970-01-25'
+            )
+        );
+    }
 }
