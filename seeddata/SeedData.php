@@ -221,7 +221,25 @@ class SeedData {
     {
         return array(
             array(
-
+                'FkEmployeeId' => 1,
+                'FkCompanyId' => 1,
+                'FkSalaryTypeId' => 2,
+                'MonthWage' => 25000,
+                'HourWage' => 120,
+                'TaxType' => 'A-skat',
+                'TaxPercent' => 40.00,
+                'TexDeduction' => 11223.00,
+                'OvertimeAmount' => 30.00,
+                'BankName' => 'Lån og Spar Bank',
+                'BankAccount' => '12324353564',
+                'SalaryAddition' => 400.00,
+                'TaxableBenefits' => 0.00,
+                'PensionEmployeeRate' => 2.50,
+                'PensionEmployerRate' => 5.00,
+                'AmBidragApplicable' => 1,
+                'VacationDays' => 10,
+                'VacationPay' => 100,
+                'EmployerTax' => 0
             )
         );
     }
