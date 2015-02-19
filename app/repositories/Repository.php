@@ -84,4 +84,14 @@ class Repository {
     {
         $this->insert('employee',$employee);
     }
+
+    public function InsertEmployeeSalaryDk($salaryDk)
+    {
+        $this->insert('employee_salary_dk',$salaryDk);
+    }
+
+    public function InsertEmployeeSalarySe($salarySe)
+    {
+        $this->insert('employee_salary_se', $salarySe);
+    }
 }

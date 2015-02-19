@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb73a9ff-198c-40ea-99da-1817797f8892" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeSalarySeCommand.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/repositories/Repository.php" afterPath="$PROJECT_DIR$/app/repositories/Repository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/commands/seedcommands/SeedCompanyCommand.php" afterPath="$PROJECT_DIR$/app/commands/seedcommands/SeedCompanyCommand.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seeddata/SeedData.php" afterPath="$PROJECT_DIR$/seeddata/SeedData.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,11 +29,11 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="SeedCompanyCommand.php" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/app/commands/seedcommands/SeedCompanyCommand.php">
+            <file leaf-file-name="SeedEmployeeCommand.php" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeCommand.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.081540205" vertical-offset="0" max-vertical-offset="883">
-                    <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+                  <state vertical-scroll-proportion="0.027180068" vertical-offset="0" max-vertical-offset="883">
+                    <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="69" />
                     <folding />
                   </state>
                 </provider>
@@ -81,33 +80,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeedData.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SeedData.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seeddata/SeedData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.586206" vertical-offset="3775" max-vertical-offset="4728">
-              <caret line="187" column="42" selection-start-line="187" selection-start-column="42" selection-end-line="187" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.7553794" vertical-offset="4685" max-vertical-offset="5592">
+              <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeedEmployeeCommand.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeCommand.php">
+      <file leaf-file-name="SeedEmployeeSalaryDkCommand.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeSalaryDkCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6551725" vertical-offset="0" max-vertical-offset="528">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.793103" vertical-offset="0" max-vertical-offset="528">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Repository.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SeedEmployeeSalarySeCommand.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeSalarySeCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.310345" vertical-offset="0" max-vertical-offset="480">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/repositories/Repository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20998865" vertical-offset="1231" max-vertical-offset="2232">
-              <caret line="59" column="70" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
+            <state vertical-scroll-proportion="-23.172413" vertical-offset="1584" max-vertical-offset="2472">
+              <caret line="94" column="55" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="55" />
               <folding>
-                <marker date="1423598966455" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
+                <marker date="1424345428307" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -188,8 +197,12 @@
         <option value="$PROJECT_DIR$/app/commands/seedcommands/SeedCompanyCommand.php" />
         <option value="$PROJECT_DIR$/app/commands/seedcommands/SeedCompanyCheckinCommand.php" />
         <option value="$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeCommand.php" />
-        <option value="$PROJECT_DIR$/seeddata/SeedData.php" />
+        <option value="$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeSalaryCommand.php" />
         <option value="$PROJECT_DIR$/app/repositories/Repository.php" />
+        <option value="$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeSalaryDKCommand.php" />
+        <option value="$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeSalaryDkCommand.php" />
+        <option value="$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeSalarySeCommand.php" />
+        <option value="$PROJECT_DIR$/seeddata/SeedData.php" />
       </list>
     </option>
   </component>
@@ -226,7 +239,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,6 +345,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -412,12 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1423083436772</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added employee seed data&#10;">
+      <created>1423599071532</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1423599071532</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -426,20 +445,20 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18423855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18743344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30769232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30769232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957264" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957264" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -458,21 +477,14 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="first&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="first&#10;" />
+    <MESSAGE value="Added employee seed data&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added employee seed data&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/timetjekgenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="504">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seeddata/SeedData.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3413" max-vertical-offset="4296">
@@ -485,7 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="552">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,7 +505,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1229" max-vertical-offset="2112">
           <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
           <folding>
-            <marker date="1423598966455" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
+            <marker date="1424345428307" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -551,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="504">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="552">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,7 +585,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="841" max-vertical-offset="1872">
           <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding>
-            <marker date="1423598966455" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
+            <marker date="1424345428307" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -633,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="504">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="552">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +665,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="841" max-vertical-offset="1872">
           <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding>
-            <marker date="1423598966455" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
+            <marker date="1424345428307" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -731,7 +738,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="1008">
           <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
           <folding>
-            <marker date="1423598966455" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
+            <marker date="1424345428307" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -775,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="552">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="504">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.081540205" vertical-offset="0" max-vertical-offset="883">
           <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,29 +847,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seeddata/SeedData.php">
+    <entry file="file://$PROJECT_DIR$/app/repositories/Repository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.586206" vertical-offset="3775" max-vertical-offset="4728">
-          <caret line="187" column="42" selection-start-line="187" selection-start-column="42" selection-end-line="187" selection-end-column="42" />
+        <state vertical-scroll-proportion="-23.172413" vertical-offset="1584" max-vertical-offset="2472">
+          <caret line="94" column="55" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="55" />
+          <folding>
+            <marker date="1424345428307" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeSalaryDkCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.793103" vertical-offset="0" max-vertical-offset="528">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeSalarySeCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.310345" vertical-offset="0" max-vertical-offset="480">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/commands/seedcommands/SeedEmployeeCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6551725" vertical-offset="0" max-vertical-offset="528">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.027180068" vertical-offset="0" max-vertical-offset="883">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/repositories/Repository.php">
+    <entry file="file://$PROJECT_DIR$/seeddata/SeedData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20998865" vertical-offset="1231" max-vertical-offset="2232">
-          <caret line="59" column="70" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
-          <folding>
-            <marker date="1423598966455" expanded="true" signature="1255:1310" placeholder="INSERT INTO ..." />
-          </folding>
+        <state vertical-scroll-proportion="0.7553794" vertical-offset="4685" max-vertical-offset="5592">
+          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
