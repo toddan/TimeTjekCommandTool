@@ -153,4 +153,94 @@ class SeedData {
             )
         );
     }
+
+    public static function Companies()
+    {
+        return array(
+            array(
+                'FkAccountId' => 0,
+                'CompanyName' => 'BCT Trinity',
+                'Address1' => 'Randersgade 27, 4 th',
+                'Address2' => 'Kælderen',
+                'Zipcode' => '2200',
+                'City' => 'köpenhamn',
+                'CompanyRegistrationId' => '12345678',
+                'PhoneNumber' => '11112222',
+                'DateCreated' => date("Y-m-d H:i:s"),
+                'IsActive' => '1'
+            )
+        );
+    }
+
+    public static function Employees()
+    {
+        return array(
+            array(
+                'FkCompanyId' => 7,
+                'EmployeeTypeId' => 1,
+                'Active' => 1,
+                'dtEmployementStarted' => date("Y-m-d H:i:s"),
+                'PersonName' => 'Mads A-Skat',
+                'CivilRegistrationId' => '123456789',
+                'Address' => 'Randersgade 27, 4th',
+                'Phone' => '3434343434',
+                'Email' => 'mads@twilight.dk',
+                'BirthDay' => '1970-01-25'
+            )
+        );
+    }
+
+    public static function EmployeeSalaryDk()
+    {
+        return array(
+            array(
+                'FkEmployeeId' => 1,
+                'FkCompanyId' => 1,
+                'FkSalaryTypeId' => 2,
+                'MonthWage' => 25000,
+                'HourWage' => 120,
+                'TaxType' => 'A-skat',
+                'TaxPercent' => 40.00,
+                'TexDeduction' => 11223.00,
+                'OvertimeAmount' => 30.00,
+                'BankName' => 'Lån og Spar Bank',
+                'BankAccount' => '12324353564',
+                'SalaryAddition' => 400.00,
+                'TaxableBenefits' => 0.00,
+                'PensionEmployeeRate' => 2.50,
+                'PensionEmployerRate' => 5.00,
+                'AmBidragApplicable' => 1,
+                'VacationDays' => 10,
+                'VacationPay' => 100,
+                'EmployerTax' => 0
+            )
+        );
+    }
+
+    public function EmployeeSalarySe()
+    {
+        return array(
+            array(
+                'FkEmployeeId' => 1,
+                'FkCompanyId' => 1,
+                'FkSalaryTypeId' => 2,
+                'MonthWage' => 25000,
+                'HourWage' => 120,
+                'TaxType' => 'A-skat',
+                'TaxPercent' => 40.00,
+                'TexDeduction' => 11223.00,
+                'OvertimeAmount' => 30.00,
+                'BankName' => 'Lån og Spar Bank',
+                'BankAccount' => '12324353564',
+                'SalaryAddition' => 400.00,
+                'TaxableBenefits' => 0.00,
+                'PensionEmployeeRate' => 2.50,
+                'PensionEmployerRate' => 5.00,
+                'AmBidragApplicable' => 1,
+                'VacationDays' => 10,
+                'VacationPay' => 100,
+                'EmployerTax' => 0
+            )
+        );
+    }
 }

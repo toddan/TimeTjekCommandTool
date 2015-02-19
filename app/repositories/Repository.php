@@ -70,4 +70,28 @@ class Repository {
         $this->insert('codelist_timereg_status',$codelisttimeregstatus);
     }
 
+    public function InsertCompany($company)
+    {
+        $this->insert('Company', $company);
+    }
+
+    public function InsertCompanyCheckin($companycheckin)
+    {
+        $this->insert('company_checkin',$companycheckin);
+    }
+
+    public function InsertEmployee($employee)
+    {
+        $this->insert('employee',$employee);
+    }
+
+    public function InsertEmployeeSalaryDk($salaryDk)
+    {
+        $this->insert('employee_salary_dk',$salaryDk);
+    }
+
+    public function InsertEmployeeSalarySe($salarySe)
+    {
+        $this->insert('employee_salary_se', $salarySe);
+    }
 }
