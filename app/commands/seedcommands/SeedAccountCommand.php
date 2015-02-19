@@ -1,5 +1,4 @@
 <?php
-
 class SeedAccountCommand extends Command implements CommandInterface {
 
     private function insertAccount()
