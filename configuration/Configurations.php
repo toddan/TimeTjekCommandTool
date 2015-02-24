@@ -7,7 +7,7 @@ class Configurations {
             'user' => 'root',
             'password' => '',
             'host' => 'localhost',
-            'dbname' => 'timetjek_app'
+            'dbname' => 'timetjektest'
         );
 
         return $dbconfig[$index];

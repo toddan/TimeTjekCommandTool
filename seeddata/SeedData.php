@@ -1,14 +1,15 @@
 <?php
 class SeedData {
+
     public static function Account()
     {
         return array(
             array(
-                'EmailAddress' => 'TORD',
+                'EmailAddress' => 'Mads@mads.se',
                 'CountryCode' => 'se',
                 'PhoneNumber' => '666 666 66',
                 'ContactPersonName' => 'test test',
-                'DateCreated' => date("Y-m-d H:i:s")
+                'DateCreated' => date('Y-m-d')
             )
         );
     }
@@ -149,7 +150,7 @@ class SeedData {
             ),
             array(
                 'StatusId' => 2,
-                'Overskredet'
+                'StatusText' => 'Overskredet'
             )
         );
     }
@@ -217,7 +218,7 @@ class SeedData {
         );
     }
 
-    public function EmployeeSalarySe()
+    public static function EmployeeSalarySe()
     {
         return array(
             array(
@@ -228,7 +229,7 @@ class SeedData {
                 'HourWage' => 120,
                 'TaxType' => 'A-skat',
                 'TaxPercent' => 40.00,
-                'TexDeduction' => 11223.00,
+                'TaxDeduction' => 11223.00,
                 'OvertimeAmount' => 30.00,
                 'BankName' => 'Lån og Spar Bank',
                 'BankAccount' => '12324353564',
@@ -239,7 +240,52 @@ class SeedData {
                 'AmBidragApplicable' => 1,
                 'VacationDays' => 10,
                 'VacationPay' => 100,
-                'EmployerTax' => 0
+            )
+        );
+    }
+
+    public static function SickDays()
+    {
+        $enddate = new DateTime(date("Y-m-d"));
+        $enddate->modify('+1 day');
+
+        return array(
+            array(
+                'FkEmployeeId' => 1,
+                'FkCompanyId' => 1,
+                'StartDate' => date("Y-m-d"),
+                'EndDate' => $endate->format('Y-m-d'),
+                'NumberOfDays' => 1
+            )
+        );
+    }
+
+    public static function Holidays()
+    {
+        return array(
+            array(
+                'DateId' => 1,
+                'DateDescription' => 'Palmesøndag',
+                'CountryCode' => 'dk',
+                'EventDate' => '2012-04-01'
+            ),
+            array(
+                'DateId' => 2,
+                'DateDescription' => 'Skærtorsdag',
+                'CountryCode' => 'dk',
+                'EventDate' => '2012-04-05'
+            ),
+            array(
+                'DateId' => 3,
+                'DateDescription' => 'Langfredag',
+                'CountryCode' => 'dk',
+                'EventDate' => '2012-04-06'
+            ),
+            array(
+                'DateId' => 0,
+                'DateDescription' => 'Min Helligdag',
+                'CountryCode' => 'dk',
+                'EventDate' => '2012-02-29'
             )
         );
     }

@@ -24,7 +24,15 @@ class Application implements ApplicationInterface{
         }
         return "Default";
     }
-//hej
+
+    public function ListAllCommands()
+    {
+        foreach($this->commands as $command)
+        {
+            echo $command->GetName();
+        }
+    }
+
     public function Run()
     {
         if(count($this->commands) == 0)

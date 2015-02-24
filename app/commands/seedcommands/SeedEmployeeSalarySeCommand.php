@@ -1,5 +1,5 @@
 <?php
-class SeedEmployeeCommand extends Command implements CommandInterface {
+class SeedEmployeeSalarySeCommand extends Command implements CommandInterface {
     private function insertSalary()
     {
         foreach(SeedData::EmployeeSalarySe() as $salary)

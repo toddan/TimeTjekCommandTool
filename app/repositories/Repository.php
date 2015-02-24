@@ -8,7 +8,7 @@ class Repository {
         $host = Configurations::DbConfig('host');
         $dbname = Configurations::DbConfig('dbname');
         $user = Configurations::DbConfig('user');
-        $password = Configurations::DbConfig('pass');
+        $password = Configurations::DbConfig('password');
 
         try {
             $this->db = new PDO(
@@ -93,5 +93,10 @@ class Repository {
     public function InsertEmployeeSalarySe($salarySe)
     {
         $this->insert('employee_salary_se', $salarySe);
+    }
+
+    public function InsertHoliday($holiday)
+    {
+        $this->insert('holiday',$holiday);
     }
 }
